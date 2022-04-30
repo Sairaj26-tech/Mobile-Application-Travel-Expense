@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">M-Expenses</string>
+    <string name="btnViewTrip">View Trip</string>
+    <string name="btnAddTrip">Add Trip</string>
+    <string name="btnPost">Upload to Cloud</string>
+    <string name="btnSearch">Search</string>
+    <string name="vwTripDetail">Trip Details</string>
+    <string name="tripDetailName">Trip Name:</string>
+    <string name="tripDetailDestination">Destination:</string>
+    <string name="tripDetailDate">Date of the Trip:</string>
+    <string name="tripDetailDesc">Description:</string>
+    <string name="tripDetailRisk">Risk Assessment:</string>
+    <string name="vwExpenses">Expenses:</string>
+    <string name="btnClr">Reset</string>
+    <string name="url">https://stuiis.cms.gre.ac.uk/COMP1424CoreWS/comp1424cw</string>
+    <string name="json">
+        {\"userId\":\"wm123\",
+        \"detailList\":[
+        {\"name\":\"Android Conference\",\"destination\":\"London\"},
+        {\"name\":\"Client Meeting\",\"destination\":\"Maidstone\"}]}
+    </string>
+</resources>

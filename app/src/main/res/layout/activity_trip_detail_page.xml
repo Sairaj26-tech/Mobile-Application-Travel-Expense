@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TripDetailPage"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:id="@+id/tripHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="36dp"
+        android:text="Trip Detail"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toTopOf="@+id/imageButton3"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+
+    <TextView
+        android:id="@+id/textTDN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/tripDetailName"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tripHeader" />
+
+    <TextView
+        android:id="@+id/textTDNA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="21dp"
+        android:text="TextView"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/textTDDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/tripDetailDestination"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textTDN"
+        app:layout_constraintTop_toBottomOf="@+id/textTDN" />
+
+    <TextView
+        android:id="@+id/textTDDeA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        app:layout_constraintStart_toStartOf="@+id/textTDNA"
+        app:layout_constraintTop_toBottomOf="@+id/textTDNA" />
+
+    <TextView
+        android:id="@+id/textTDD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/tripDetailDate"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textTDDe"
+        app:layout_constraintTop_toBottomOf="@+id/textTDDe" />
+
+    <TextView
+        android:id="@+id/textTDDA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        app:layout_constraintStart_toStartOf="@+id/textTDDeA"
+        app:layout_constraintTop_toBottomOf="@+id/textTDDeA" />
+
+    <TextView
+        android:id="@+id/textTDR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/tripDetailRisk"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#E7E9F3"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTDD" />
+
+    <TextView
+        android:id="@+id/textTDRA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="TextView"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        app:layout_constraintStart_toStartOf="@+id/textTDDA"
+        app:layout_constraintTop_toBottomOf="@+id/textTDDA" />
+
+    <TextView
+        android:id="@+id/textTDDs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="@string/tripDetailDesc"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textTDR"
+        app:layout_constraintTop_toBottomOf="@+id/textTDR" />
+
+    <TextView
+        android:id="@+id/textTDDsA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="TextView"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        app:layout_constraintStart_toStartOf="@+id/textTDRA"
+        app:layout_constraintTop_toBottomOf="@+id/textTDRA" />
+
+    <TextView
+        android:id="@+id/textExpenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="17dp"
+        android:text="@string/vwExpenses"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/expListView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/expListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="277dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/background1">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/regg"
+        android:scaleType="centerInside" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview"
+        android:layout_marginTop="82dp"
+        android:hint="Username"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview"
+        android:layout_marginTop="175dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview"
+        android:layout_marginTop="255dp"
+        android:hint="Re-Enter password"
+        android:inputType="textPassword"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/repassword"
+        android:layout_marginTop="28dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignup"
+        android:text="SigIn"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

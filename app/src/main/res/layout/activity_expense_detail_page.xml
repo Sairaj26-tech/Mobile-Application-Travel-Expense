@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExpenseDetailPage"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:id="@+id/ExpenseHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="36dp"
+        android:text="Expense Detail"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="144dp"
+        android:text="Expense Type: "
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textETA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="18dp"
+        android:text="TextView"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        app:layout_constraintBottom_toTopOf="@+id/textEAA"
+        app:layout_constraintEnd_toEndOf="@+id/textEAA" />
+
+    <TextView
+        android:id="@+id/textEA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Expense Amount: "
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textET"
+        app:layout_constraintTop_toBottomOf="@+id/textET" />
+
+    <TextView
+        android:id="@+id/textEAA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="19dp"
+        android:text="TextView"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        app:layout_constraintBottom_toTopOf="@+id/textEDA"
+        app:layout_constraintEnd_toEndOf="@+id/textEDA" />
+
+    <TextView
+        android:id="@+id/textED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Expense Date: "
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textEA"
+        app:layout_constraintTop_toBottomOf="@+id/textEA" />
+
+    <TextView
+        android:id="@+id/textEDA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="23dp"
+        android:text="TextView"
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        app:layout_constraintBottom_toTopOf="@+id/textECA"
+        app:layout_constraintEnd_toEndOf="@+id/textECA" />
+
+    <TextView
+        android:id="@+id/textEC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="23dp"
+        android:text="Expense Comment: "
+        android:textColor="#191818"
+        android:textColorHighlight="#191818"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textED" />
+
+    <TextView
+        android:id="@+id/textECA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:text="TextView"
+        android:textColor="#191818"
+        android:textColorHighlight="#E7E9F3"
+        android:textColorHint="#191818"
+        android:textColorLink="#191818"
+        app:layout_constraintStart_toEndOf="@+id/textEC"
+        app:layout_constraintTop_toTopOf="@+id/textEC" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEC" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

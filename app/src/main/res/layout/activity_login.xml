@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <!--<ImageView
+        android:id="@+id/imageview"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/loginpng" />
+        android:background="@drawable/loginmm"
+
+        !-->
+
+
+    <EditText
+        android:id="@+id/userenameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="username"
+        android:textSize="25dp"
+        tools:ignore="InvalidId" />
+
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        tools:ignore="NotSibling" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordLogin"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="Login"
+        android:textSize="25sp" />
+
+
+
+</RelativeLayout>
