@@ -1,0 +1,56 @@
+{
+  "userId": "bharath",
+  "detailList": [
+    {
+      "name": "Trip to London",
+      "destination": "London",
+      "date": "07-12-2021 19:14:07",
+      "description": "Field Meeting",
+      "risk_assessment": "true",
+      "expensesList": [
+        {
+          "expense_type": "Travel",
+          "expense_amount": "1500.0",
+          "expense_date": "2021-12-10",
+          "expense_comment": "Travel Charges"
+        },
+        {
+          "expense_type": "Food",
+          "expense_amount": "5000.0",
+          "expense_date": "2021-12-11",
+          "expense_comment": "Burger"
+        }
+      ]
+    },
+    {
+      "name": "Trip to India",
+      "destination": "Chennai",
+      "date": "2021-12-05",
+      "description": "Client Meeting",
+      "risk_assessment": "false",
+      "expensesList": [
+        {}
+      ]
+    },
+    {
+      "name": "Trip to Canada",
+      "destination": "Canada",
+      "date": "07-12-2021 19:16:29",
+      "description": "Sucess Party",
+      "risk_assessment": "false",
+      "expensesList": [
+        {}
+      ]
+    },
+    {
+      "name": "Trip to spain",
+      "destination": "Spain Island",
+      "date": "2021-12-25",
+      "description": "Christmas Event",
+      "risk_assessment": "false",
+      "expensesList": [
+        {}
+      ]
+    }
+  ]
+}
